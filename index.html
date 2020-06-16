@@ -1,0 +1,126 @@
+<!DOCTYPE HTML5>
+<html>
+    <head>
+        <title>Learn Bulma</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"></link>
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+    <style>
+        .center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.is-paddingless-horizontal { padding-left: 0; padding-right: 0; }
+
+.grid {
+	display: grid;
+	grid-template-columns:
+		[xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+}
+
+.grid *  { grid-column: md; }
+.grid-xl { grid-column: xl; }
+
+@media (max-width: 672px)
+ {
+     :root {
+         font-size: 75%;
+     }
+ }		
+ 
+ </style>
+	</head>
+	<body>
+
+		<!-- .section -->
+		<section class="section is-paddingless-horizontal">
+			<div class="container grid">
+				<nav class="breadcrumb" aria-label="breadcrumbs">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li class="is-active"><a href="#" aria-current="page">How to find your artistic style</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		<!-- /.section -->
+		
+		<!-- .section -->
+		<section class="section is-paddingless-horizontal" style="padding-top: 0;">
+			<div class="container grid">
+
+				<!-- .media -->
+				<article class="media center">
+					<figure class="media-left">
+						<span class="image is-48x48">
+							<img class="is-rounded" src="images/IMG_2098.JPG">
+						</span>
+					</figure>
+					<div class="media-content">
+						<div class="content">
+							<p>
+								<strong>Jay Baku</strong> <a>@username_jaybaku</a><br>
+								<span class="has-text-grey">God-made, inspired to storytell<br>
+								<time datetime="2018-04-20">Apr 20</time> · 10 min read</span>
+							</p>
+						</div>
+					</div>
+				</article>
+				<!-- /.media -->
+
+				<!-- .section -->
+				<div class="section is-paddingless-horizontal">
+					<h1 class="title is-2">
+						How to find your artistic style
+					</h1>
+					<h2 class="subtitle is-3 has-text-grey-light">
+						An examination of iconic pieces
+					</h2>
+				</div>
+				<!-- /.section -->
+
+			<!-- .columns -->
+            <figure class="columns is-mobile is-variable is-0 is-marginless grid-xl">
+                <div class="column">
+                    <div class="image card is-16by9">
+                        <a><img src="images/block1.png"></a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="image card is-16by9">
+                        <a><img src="images/lowpoly3.jpg"></a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="image card is-16by9">
+                        <a><img src="images/minecraftIsland.webp"></a>
+                    </div>
+                </div>
+            </figure>
+            <figcaption class="level">
+                <small class="level-item has-text-grey">
+                    Fascinating representations of creation in design.
+                </small>
+            </figcaption>
+            <!-- /.columns -->
+                <div class="content is-medium">
+                    <p>
+						It's just a movie; or show; or game; or so they say. As an artist who wishes to understand the dissemination of ideas, one must come to accept the fact that most <strong>won't</strong> see the significance in their pieces. At least not initially.
+						Nevertheless, <strong>artistic design choices can change cultures</strong>, and have done so many times in the past. The question is how commited one is in the face of opposition.
+					</p>
+					<p>
+						We must speak out in <strong>all</strong> areas of culture about policy, standards, and mentalities that need to be changed.
+						It all begins with perceptiveness, then discussion, then action, and finally <strong>change</strong>. One must seek out other innovators and the eager early adopters if they hope to ever have an impact on the masses.
+					</p>
+                </div>
+
+			</div>
+		</section>
+		<!-- /.section -->
+
+	</body>
+</html>
